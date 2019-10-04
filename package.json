@@ -1,5 +1,5 @@
 {
-  "name": "@indicium/components",
+  "name": "@svindicium/indicium-components",
   "version": "0.1.1",
   "private": false,
   "scripts": {
@@ -17,7 +17,7 @@
     "*.js"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/svIndicium"
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "url": "git://github.com/svIndicium/indicium-components.git"
