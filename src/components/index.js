@@ -1,8 +1,28 @@
 import Vue from "vue";
-import button from "./button";
+import Button from "./Button";
+import AnimatedLine from "./AnimatedLine";
+import ButtonGroup from "./ButtonGroup";
+import Calendar from "./Calendar";
+import CheckBox from "./CheckBox";
+import DateInput from "./DateInput";
+import DateTimeInput from "./DateTimeInput";
+import Loading from "./Loading";
+import SelectInput from "./SelectInput";
+import StatusLabel from "./StatusLabel";
+import TextInput from "./TextInput";
 
 const Components = {
-    button
+    Button,
+    AnimatedLine,
+    ButtonGroup,
+    Calendar,
+    CheckBox,
+    DateInput,
+    DateTimeInput,
+    Loading,
+    SelectInput,
+    StatusLabel,
+    TextInput,
 };
 
 Object.keys(Components).forEach(name => {

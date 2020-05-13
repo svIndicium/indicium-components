@@ -1,6 +1,6 @@
 {
   "name": "@svindicium/indicium-components",
-  "version": "v0.0.7",
+  "version": "v0.1.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -23,10 +23,15 @@
     "url": "git://github.com/svIndicium/indicium-components.git"
   },
   "dependencies": {
+    "@fullcalendar/core": "^4.4.0",
+    "@fullcalendar/daygrid": "^4.4.0",
+    "@fullcalendar/vue": "^4.4.0",
     "core-js": "^2.6.5",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
-    "vue": "^2.6.10"
+    "vue-ctk-date-time-picker": "^2.4.0",
+    "vue": "^2.6.10",
+    "vuejs-datepicker": "^1.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
