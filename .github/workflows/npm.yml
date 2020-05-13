@@ -11,10 +11,10 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@svindicium'
       - name: Install dependencies
-        run: npm install
+        run: yarn
       - name: Build package
-        run: npm run build
+        run: yarn build-lib
       - name: Publish tag to GPR
-        run: npm publish
+        run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
