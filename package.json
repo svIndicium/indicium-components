@@ -1,6 +1,6 @@
 {
   "name": "@svindicium/indicium-components",
-  "version": "v0.1.1",
+  "version": "0.1.2",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -29,8 +29,8 @@
     "core-js": "^2.6.5",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
-    "vue-ctk-date-time-picker": "^2.4.0",
     "vue": "^2.6.10",
+    "vue-ctk-date-time-picker": "^2.4.0",
     "vuejs-datepicker": "^1.6.2"
   },
   "devDependencies": {
